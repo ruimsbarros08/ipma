@@ -12,7 +12,7 @@
   <th>Client</th> 
 </tr>
 <tr ng-repeat="event in data">
-  <td>{{ event.eventID }}</td>
+  <td><a ng-href="https://www.google.pt/maps/@{{ event.latitude }},{{ event.longitude }},6z" target="_blank">{{ event.eventID }}</a></td>
   <td>{{ event.magnitude }}</td> 
   <td>{{ event.latitude }}</td> 
   <td>{{ event.longitude }}</td> 
