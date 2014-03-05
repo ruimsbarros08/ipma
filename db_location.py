@@ -1,0 +1,1 @@
+path = '/srv/openg/www/ipma/ipma_seismic.sqlite'
