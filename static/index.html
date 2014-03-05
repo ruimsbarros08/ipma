@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="ipma">
+<head>
+    <meta charset="utf-8"/>
+    <title>IPMA - Seismic Activity</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/yeti-bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/toaster.css" rel="stylesheet" />
+    <link href="css/loading-bar.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+<div class="container">
+	<h1>IPMA - Seismic Activity</h1>
+	<div class="hero-unit">
+	    <p>Seismic Activity in Portugal</p>
+	</div>
+
+	<div class="row">
+        <div class="span12">
+        	<div ng-view></div>
+        </div>
+    </div>
+
+<!-- 3rd party libraries -->
+<script type="text/javascript" src="js/lib/angular.min.js"></script>
+<script type="text/javascript" src="js/lib/angular-route.min.js"></script>
+<!--<script type="text/javascript" src="js/lib/angular-resource.min.js"></script>
+<script type="text/javascript" src="js/lib/angular-animate.min.js"></script>
+<script type="text/javascript" src="js/lib/angular-sanitize.min.js"></script>-->
+<script type="text/javascript" src="js/lib/toaster.js"></script>
+<script type="text/javascript" src="js/lib/loading-bar.min.js"></script>
+
+<script type="text/javascript" src="js/base_url.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<!--<script type="text/javascript" src="js/app/controllers/mainCtrl.js"></script>
+<!--<script type="text/javascript" src="js/app/services/mainSrvc.js"></script>-->
+
+</body>
+</html>

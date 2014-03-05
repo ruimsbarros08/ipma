@@ -1,0 +1,26 @@
+<table class="table">
+<tr>
+  <th>Event ID</th>
+  <th>Magnitude</th> 
+  <th>Latitude</th> 
+  <th>Longitude</th> 
+  <th>Depth</th> 
+  <th>Date/Time</th> 
+  <th>Status</th> 
+  <th>Reliability Code</th> 
+  <th>Location</th> 
+  <th>Client</th> 
+</tr>
+<tr ng-repeat="event in data">
+  <td>{{ event.eventID }}</td>
+  <td>{{ event.magnitude }}</td> 
+  <td>{{ event.latitude }}</td> 
+  <td>{{ event.longitude }}</td> 
+  <td>{{ event.depth }}</td> 
+  <td>{{ event.dateTime }}</td> 
+  <td>{{ event.status }}</td> 
+  <td>{{ event.reliabilityCode }}</td> 
+  <td>{{ event.location }}</td> 
+  <td>{{ event.client }}</td> 
+</tr>
+</table>

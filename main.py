@@ -60,8 +60,6 @@ def retrieveData():
 	table = cur.fetchall()
 	cur.close()
 
-	print table
-
 	data = []
 
 	for e in table:
